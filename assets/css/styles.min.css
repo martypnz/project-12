@@ -1,0 +1,56 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css";
+article {
+  width: 500px;
+  height: 500px;
+  border: 2px solid;
+}
+article div {
+  background-color: #f33;
+  font-size: 2em;
+  color: #fff;
+  width: 100px;
+}
+article {
+  display: flex;
+  gap: 3px;
+  justify-content: start;
+  align-items: start;
+  flex-wrap: wrap;
+  align-content: end;
+}
+nav {
+  background-color: #eee;
+  height: 200px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+nav a:last-child {
+  align-self: end;
+}
+nav a:first-child {
+  align-self: start;
+}
+aside {
+  height: 100px;
+  background-color: #b8b3b3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+aside button {
+  width: 150px;
+  height: 40px;
+  border: 2px solid;
+}
+aside:first-child {
+  background-color: #f33;
+}
+aside:last-child {
+  background-color: #2f0;
+}
+aside:hover {
+  background-color: #eee;
+} /*# sourceMappingURL=styles.min.css.map */
